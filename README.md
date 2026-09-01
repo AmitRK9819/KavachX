@@ -55,24 +55,14 @@ Authorized Railway Human Approval
 
 ---
 
-## Running Person 3 Demos and Tests
+## Running Tests & Verifying Person 3
 
-### 1. Run Person 3 Live Demo
-```bash
-python src/run_person3_demo.py
-```
-
-### 2. Run Comprehensive Unit Test Suite
-```bash
-python -m unittest tests/test_feasibility_engine.py
-```
-
-### 3. Run Standalone Feasibility Engine Smoke Test
+### 1. Run Standalone Feasibility Engine Smoke Test
 ```bash
 python src/feasibility_engine.py
 ```
 
-### 4. Export Feasibility Audit Logs
+### 2. Run Comprehensive Unit Test Suite
 ```bash
-python src/export_demo_logs.py
+python -m unittest discover tests -v
 ```
